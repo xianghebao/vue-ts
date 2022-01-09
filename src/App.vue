@@ -46,6 +46,7 @@ import { useRouter } from 'vue-router'
 </script>
 
 <style lang="less">
+
 html, body {
   height: 100%;
   overflow-x: hidden;
