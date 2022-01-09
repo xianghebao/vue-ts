@@ -80,7 +80,7 @@ html, body {
     position: absolute;
     backface-visibility: hidden;
 }
-.slide-right-enter{
+.slide-right-enter-to{
     opacity: 0;
     transform: translate3d(-100%, 0, 0);
 }
@@ -88,7 +88,7 @@ html, body {
     opacity: 0;
     transform: translate3d(100%, 0, 0);
 }
-.slide-left-enter{
+.slide-left-enter-to{
     opacity: 0;
     transform: translate3d(100%, 0, 0);
 }
