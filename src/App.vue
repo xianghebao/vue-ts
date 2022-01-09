@@ -26,6 +26,7 @@ import { useRouter } from 'vue-router'
       const router = useRouter()
       const state = reactive({
         transitionName: 'slide-left'
+        
       })
       router.beforeEach((to, from) => {
         if (to.meta.index > from.meta.index) {
